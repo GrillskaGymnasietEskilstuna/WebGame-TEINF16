@@ -1,0 +1,104 @@
+
+body {
+   background-image: url("https://images.fineartamerica.com/images-medium-large-5/-paper-art-canvas-paint-layout-wanlop-sonngam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 11% 5%;   
+}
+
+h1 {
+    position: absolute; 
+    left: 500px;
+    font-size: 50px;
+    color: orange;
+    top: 60px;
+    border-style: solid;
+
+}
+
+ {
+    box-sizing:border-box;
+    
+}   
+
+.wrapper {
+  max-width: 123px;
+  margin: 0 auto;
+}
+
+.wrapper 
+
+div {
+  border: 4px solid rgb(433,171,88);
+  border-radius: 30px;
+  border-color:orange;
+  background-color: rgba(33,71,164,1.9);
+  padding: 4em;
+  color: #d9480f;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  position: absolute;
+  bottom: 150px;
+  left: 250px;
+  
+}
+
+.one{
+    grid-column: auto;
+    grid-row: 1;
+    font-size: 100%;
+}
+
+
+.two {
+    grid-column: auto;
+    font-size: 100%;
+}
+
+.three {
+     grid-column: auto;
+     font-size: 100%;
+}
+
+
+.four { grid-column: auto;
+       font-size: 100%;
+}
+
+#one {
+    font-size: 10px;
+   
+}
+
+#pil1 
+{
+    position: absolute;
+    right: 333px;
+    top: 240px;
+}
+
+
+#pil2 
+{
+    position: absolute;
+    right: 333px;
+    top: 550px;
+}
+
+#pil3 
+{
+    position: absolute;
+    left: 133px;
+    top: 410px;
+}
+
+#test
+{
+    font-size: 50px;
+}
+
