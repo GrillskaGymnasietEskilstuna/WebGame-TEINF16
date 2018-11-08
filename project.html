@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    
+    <h1>The Game About Web Development </h1>
 </head>
      <link rel="stylesheet" type="text/css" href="project.css">
+<script src="project.js"></script>
    
 <body>
 
-<a onclick="document.getElementById('spelplan').style.display=hidden">dölj</a>   
+   
+    <a href="javascript:showhide('uniquename')">
+    Klicka för att gömma/visa.
+    </a>
     
-<main id ="spelplan">
-  
-   <h1>The Game About Web Development </h1> 
-    
-<div class="wrapper">
+<div id="uniquename" style="display:none;">
+
+  <div class="wrapper">
       
   <div class="one">?</div> 
-  <div class="one">?</div>
+  <div class="one">?</div> 
   <div class="one">?</div>
   <div class="one">?</div>
   <div class="one">?</div>
@@ -49,6 +51,11 @@
   <div class="four">?</div>
 
 </div> 
+    	
+ 
+    
+    
+
 
  <picture>
     
@@ -58,15 +65,15 @@
      <img id="pil1" src="pil1.png"
     alt="grillska logo"  height="202" width="100">
      
-        <img id="pil2" src="pil1.png"
+     <img id="pil2" src="pil1.png"
     alt="grillska logo"  height="202" width="100">
      
-       <img id="pil3" src="pil2.png"
+    <img id="pil3" src="pil2.png"
     alt="grillska logo"  height="202" width="100">
      
  </picture>   
-        
-</main>
+  
+ </div>
     
 </body>
 </html>

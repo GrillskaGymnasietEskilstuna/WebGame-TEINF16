@@ -1,3 +1,4 @@
+
 body {
    background-image: url("https://images.fineartamerica.com/images-medium-large-5/-paper-art-canvas-paint-layout-wanlop-sonngam.jpg");
     background-repeat: no-repeat;
@@ -94,13 +95,5 @@ div {
     position: absolute;
     left: 133px;
     top: 410px;
-}
 
-#test
-{
-    font-size: 50px;
-}
-
-#spelplan {
-    display: none;
 }
