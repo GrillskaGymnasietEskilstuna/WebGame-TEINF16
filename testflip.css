@@ -1,13 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body {
+body 
+{
     background: #F17563;
     font-family: Open Sans;
     font-size: 15px;
-  	color: #222;
+    background-image: url("https://images.fineartamerica.com/images-medium-large-5/-paper-art-canvas-paint-layout-wanlop-sonngam.jpg");
 }
 
-label {
+label 
+{
     -webkit-perspective: 1100px;
     perspective: 1100px;
     -webkit-transform-style: preserve-3d;
@@ -23,7 +25,8 @@ label {
     cursor: pointer;
 }
 
-.card {
+.card 
+{
     position: relative;
     height: 300px;
     width: 300px;
@@ -34,7 +37,8 @@ label {
     z-index: 20;
 }
 
-    .card div {
+    .card div
+{
         position: absolute;
         height: 100%;
         width: 100%;
@@ -46,55 +50,35 @@ label {
         border-radius: 2px;
     }
 
-    .card .back {
+.card .back 
+{
         background: #222;
         color: #FFF;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
-    }
+}
 
-label:hover .card {
+label:hover .card 
+{
     -webkit-transform: rotateX(20deg);
     transform: rotateX(20deg);
     box-shadow: 0 20px 20px rgba(50,50,50,.2);
 }
 
-input {
+input 
+{
     display: none;
 }
 
-:checked + .card {
+:checked + .card 
+{
     transform: rotateX(180deg);
     -webkit-transform: rotateX(180deg);
 }
 
-label:hover :checked + .card {
+label:hover :checked + .card 
+{
     transform: rotateX(160deg);
     -webkit-transform: rotateX(160deg);
     box-shadow: 0 20px 20px rgba(255,255,255,.2);
-}
-
-.button1{
- display:inline-block;
- padding:0.35em 1.2em;
- border:0.1em solid #FFFFFF;
- margin:0 0.3em 0.3em 0;
- border-radius:0.12em;
- box-sizing: border-box;
- text-decoration:none;
- font-family:'Roboto',sans-serif;
- font-weight:300;
- color:#e7e7e7;
- text-align:center;
- transition: all 0.2s;
-}
-.button1:hover{
- color:#000000;
- background-color:#FFFFFF;
-}
-@media all and (max-width:30em){
- .button1{
-  display:block;
-  margin:0.4em auto;
- }
 }

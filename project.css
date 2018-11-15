@@ -44,30 +44,30 @@ div {
   grid-auto-rows: minmax(100px, auto);
   position: absolute;
   bottom: 150px;
-  left: 250px;
+  left: 120px;
   
 }
 
 .one{
     grid-column: auto;
     grid-row: 1;
-    font-size: 100%;
+    font-size: 90%;
 }
 
 
 .two {
     grid-column: auto;
-    font-size: 100%;
+    font-size: 90%;
 }
 
 .three {
      grid-column: auto;
-     font-size: 100%;
+     font-size: 90%;
 }
 
 
 .four { grid-column: auto;
-       font-size: 100%;
+       font-size: 90%;
 }
 
 #one {
@@ -86,14 +86,14 @@ div {
 #pil2 
 {
     position: absolute;
-    right: 333px;
-    top: 550px;
+    right: 233px;
+    top: 20px;
 }
 
 #pil3 
 {
     position: absolute;
-    left: 133px;
-    top: 410px;
-
+    left: 13px;
+    top: 310px;
+    
 }
