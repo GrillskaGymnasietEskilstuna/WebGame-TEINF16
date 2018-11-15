@@ -58,13 +58,7 @@ label
         transform: rotateX(180deg);
 }
 
-label:hover .card 
-{
-    -webkit-transform: rotateX(20deg);
-    transform: rotateX(20deg);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
-}
-
+    
 input 
 {
     display: none;
@@ -82,3 +76,6 @@ label:hover :checked + .card
     -webkit-transform: rotateX(160deg);
     box-shadow: 0 20px 20px rgba(255,255,255,.2);
 }
+
+
+
