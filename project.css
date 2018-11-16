@@ -1,4 +1,3 @@
-
 body {
    background-image: url("https://images.fineartamerica.com/images-medium-large-5/-paper-art-canvas-paint-layout-wanlop-sonngam.jpg");
     background-repeat: no-repeat;
@@ -8,25 +7,17 @@ body {
 
 h1 {
     position: absolute; 
-    left: 500px;
+    left: 250px;
     font-size: 50px;
     color: orange;
     top: 60px;
-    border-style: solid;
-
-}
-
- {
-    box-sizing:border-box;
     
-}   
 
-.wrapper {
-  max-width: 123px;
-  margin: 0 auto;
 }
 
-.wrapper 
+
+   
+
 
 div {
   border: 4px solid rgb(433,171,88);
@@ -37,63 +28,88 @@ div {
   color: #d9480f;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  position: absolute;
-  bottom: 150px;
-  left: 120px;
-  
+/* Navigation */
+#navigation {
+    list-style: none;
+    font-family: "Century Gothic", Verdana, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
 }
 
-.one{
-    grid-column: auto;
-    grid-row: 1;
-    font-size: 90%;
-}
-
-
-.two {
-    grid-column: auto;
-    font-size: 90%;
-}
-
-.three {
-     grid-column: auto;
-     font-size: 90%;
-}
-
-
-.four { grid-column: auto;
-       font-size: 90%;
-}
-
-#one {
-    font-size: 10px;
-   
-}
-
-#pil1 
+/* CSS for each Parent Item */
+#navigation li
 {
-    position: absolute;
-    right: 333px;
-    top: 240px;
+    clear: both;
+    height: 2em;
 }
 
-
-#pil2 
+#navigation li a
 {
-    position: absolute;
-    right: 233px;
-    top: 20px;
+    float: left;
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
 
-#pil3 
+/* Change background color and font color
+of parent items when mouse hover */
+#navigation li:hover a,
+#navigation li a:hover
 {
-    position: absolute;
-    left: 13px;
-    top: 310px;
-    
+    background: #999;
+    color: #fff;
 }
+
+
+*/
+#navigation ul {display: none;}
+
+/* Each Child Item will be visible if mouse hover */
+#navigation li:hover ul {display: block;}
+
+#navigation ul
+{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 4px 8px;
+}
+
+#navigation ul li
+{
+    float: left;
+    clear: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    color: #999;
+}
+/*
+Reset and re style
+link of each child item
+*/
+#navigation li:hover ul li a,
+#navigation ul li a
+{
+    display: inline;
+    padding: 0 6px 0 0;
+    float: none;
+    text-transform: lowercase;
+    color: #999;
+    background: none;
+}
+
+#navigation li:hover ul li a:hover,
+#navigation ul li a:hover
+{
+    background: none;
+    color: #000;
+}
+
+
