@@ -1,83 +1,80 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head> 
-    <h1>   The Game About Web Development </h1>
-</head>
-     <link rel="stylesheet" type="text/css" href="project.css">
-<script src="project.js"></script>
-   
-<body>
+    <head>
+        <meta charset="utf-8">
+        <title>The Game About Web Development</title>
+        <meta name="author" content="TEINF16 TECH GRUOP">
+        <meta name="description" content="Web game, Game About Web Development">
+        <meta name="keywords" content="Web Game, Web Development">
+        <link rel="stylesheet" href="project.css">
+        <script src="project.js"></script>
+    </head>
+    <body>
+        <main id="start">
+        <article id="start1">
+        <h1>Start</h1>
+        <button id="spelare1button" onclick="startGame(1)">En spelare</button>
+        <button id="spelare2button" onclick="startGame(2)">Två spelare</button>
+        <button id="spelare3button" onclick="startGame(3)">Tre spelare</button>
+        <button id="spelare4button" onclick="startGame(4)">Fyra spelare</button>
+        </article>
+        <article id="spelareNamn">
+        <h1>Skriv in namn</h1>
+        <input id="spelare1input" type="text" id="spelare1namn">
+        <input id="spelare2input" type="text" id="spelare2namn">
+        <input id="spelare3input" type="text" id="spelare3namn">
+        <input id="spelare4input" type="text" id="spelare4namn">
+        <button onclick="startaSpelet()">Starta Spel</button>
+        </article>
+    </main>
+    
+        <main id="game">
+            <article id="spelplan">
+                <menu></menu>
+                <main>
+                    <div id="ruta-0">Start</div>
+                    <div id="ruta-1">1</div>
+                    <div id="ruta-2">2</div>
+                    <div id="ruta-3">3</div>
+                    <div id="ruta-4">4</div>
+                    <div id="ruta-5">5</div>
+                    <div id="ruta-6">6</div>
+                    <div id="ruta-7">7</div>
+                    <div id="ruta-8">8</div>
+                    <div id="ruta-9">9</div>
+                    <div id="ruta-10">Mål</div>
+                </main>
+               <footer></footer>  
+            </article>
+            
+            <article id="card">
+                <p id="cardText">Vilken är den bästa sporten ?</p>
+                <ul>
+                    <li id="cardSvarA">Pingis</li>
+                    <li id="cardSvarB">Fotboll</li>
+                    <li id="cardSvarC">Hockey</li>
+                    <li id="cardSvarD">Cyckel</li>
+                </ul>
+            </article>
+            
+            <article id="dice">
+            <h1>Spelare: 1</h1>
+            <button id="dice_button" onclick="rollDice()">Slå Tärningen</button>
+            <span id="dice_text"></span>
+            </article>
+            
+            <img id="spelare1" src="spelare1.png">
+            <img id="spelare2" src="spelare2.png">
+            <img id="spelare3" src="spelare3.png">
+            <img id="spelare4" src="spelare4.png">
+        
+        
+        </main>
+        
+        <main id="end">End</main>
     
     
+    </body>
 
-   
-    <h2 href="javascript:showhide('uniquename')">
-    Klicka för att gömma/visa.
-    </h2>
-    <ul id="navigation">
-    <p> Välj antal spelare </p>
-         
-    
-      
-        <li class="1"> <a href="#">Sida 1  </a> </li>
-        <li class="1"> <a href="#">Sida 2  </a> </li>
-        <li class="1"> <a href="#">Sida 3  </a> </li>
-         
-    
-<div id="uniquename" style="display:none;">
 
-  <div class="wrapper">
-      
-  <div class="one">?</div> 
-  <div class="one">?</div> 
-  <div class="one">?</div>
-  <div class="one">?</div>
-  <div class="one">?</div>
-  <div class="one">?</div>
-  <div class="one">?</div>
-  <div class="one">?</div>
-  <div class="two">?</div>
-  <div class="two">?</div>
-  <div class="two">?</div>
-  <div class="two">?</div>
-  <div class="two">?</div>
-  <div class="two">?</div>
-  <div class="two">?</div>
-  <div class="two">?</div>
-  <div class="three">?</div>
-  <div class="three">?</div>
-  <div class="three">?</div>
-  <div class="three">?</div>
-  <div class="three">?</div>
-  <div class="three">?</div>
-  <div class="three">?</div>
-  <div class="three">?</div>
-  <div class="four">?</div>
-  <div class="four">?</div>
-  <div class="four">?</div>
-  <div class="four">?</div>
-  <div class="four">?</div>
-  <div class="four">?</div>
-  <div class="four">?</div>
-  <div class="four">?</div>
-
-</div> 
-    	
- 
-    
-    
-
-
- <picture>
-    
-    <img src="https://lh3.googleusercontent.com/h7pcMRy2zh-z4758RR0EFYkgEjskmu5msPp7cltUrZPfgtxMXOJ9UAX3yIHgwYep8tbIwxxiu0zt93DUnA"
-    alt="grillska logo"  height="102" width="100">
-     
-  
-     
- </picture>   
-  
- </div>
-    
-</body>
 </html>
