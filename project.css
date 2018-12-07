@@ -2,7 +2,7 @@ html {
     margin: 0;
     padding: 0;
 }
-#game, #end, #spelareNamn, #card, #dice,
+#game, #end, #spelareNamn, #card, #dice, #rattSvar
 #spelare1, #spelare2, #spelare3, #spelare4 {
     display: none;
 }
@@ -36,3 +36,4 @@ html {
     width: 3vmin;
     height: 3vmin;
 }
+

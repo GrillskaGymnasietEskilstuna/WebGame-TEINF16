@@ -11,6 +11,7 @@ var spelare = [
 
 var currentPlayer = 0;
 var goal = 10; // Målruta
+var questionnr = -1; //Random fråga
 
 function startGame(spelare) {
     antalSpelare = spelare;
@@ -132,7 +133,7 @@ function visaCard() {
     document.getElementById("card").style.left = (bodyRect.right / 2) - ((cardRect.right - cardRect.left) / 2) + "px";
     
     // slumpa en fråga
-    var questionnr = Math.floor( Math.random() * fraga.length );
+    questionnr = Math.floor( Math.random() * fraga.length );
 
     // fylla i frågan
     
@@ -147,8 +148,24 @@ function visaCard() {
     
     // visa kortet
     
-     document.getElementById("card").style.display="initial";
+    document.getElementById("card").style.display="initial";
+    
+   
+    
+
 }
+
+function visaSvar(alt){
+    if(fraga[questionnr].svar == alt) {
+        //alert ("Rätt svar");  
+        document.getElementById("rattSvar").innerHTML = "Rätt Svar: " + fraga[questionnr].svar ;        
+
+    } else {
+        //alert ("Fel Svar");
+        document.getElementById("rattSvar").innerHTML = "Rätt Svar: " + fraga[questionnr].svar ;  
+    }
+}
+
 
     //Spel frågor
     var fraga = [
@@ -208,7 +225,7 @@ function visaCard() {
     svarD:"/* */",
      svar:"D" },   
     
-    {text:" Hur ändrar man färg på taggen “h1” i css till färgen blå? - h1 {color: “blue”}",
+    {text:"Hur ändrar man färg på taggen “h1” i css till färgen blå?",
     svarA:"<h1=blue>",
     svarB:"h1 is blue",
     svarC:" h1 <color: blue>",
