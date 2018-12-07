@@ -114,7 +114,7 @@ var fraga = [
     {fraga:" Vad är den korrekta taggen för att göra en checkbox? (kryssa-i-låda)",
     alt_A:"<checkbox>",
     alt_B:"<checkbox=true>",
-    alt_C:"<input ''type=checkbox''>",
+    alt_C:"<input 'type=checkbox'>",
     alt_D:"<add checkbox>",
      svar:"C" },
     
@@ -162,9 +162,9 @@ var fraga = [
           
       {fraga:"Vilken av dessa css syntax är korrekt för att göra så att alla <p> taggar blir i fetstil?",
       alt_A:"<p> {text-size:bold;}",
-      alt_B:"<p style=''font-size:bold;''>",
+      alt_B:"<p style='font-size:bold';>",
       alt_C:"<p> {font-weight:bold;}",
-      alt_D:"<p style=''text-size:bold;''>",
+      alt_D:"<p style='text-size:bold;'>",
       svar:"C"},
           
       {fraga:"Hur lägger du till bakgrundsfärg för alla <h1> element?",
@@ -176,13 +176,13 @@ var fraga = [
           
       {fraga:"Hur gör du en lista som listar sina saker med rutor",
       alt_A:"list-style-type:cube;",
-      alt_B:"list-style-type: square;",
+      alt_B:"list-style-type: square;"
       alt_C:"list-type: cube;",
       alt_D:"list-type: four;",
       svar:"B"},
       
        {fraga:"Hur väljer du ut ett element med id: demo?",
-      alt_A:"id ''demo''",
+      alt_A:"id 'demo",
       alt_B:"<demo>",
       alt_C:"#demo",
       alt_D:"!demo",
@@ -210,10 +210,10 @@ var fraga = [
       svar:"A"},
      
        {fraga:"Vilken kod är korrekt för att skapa en hyperlänk till google?",
-      alt_A:"<a href=''http://www.google.com''>Google</a>",
-      alt_B:"<href a=''http://www.google.com''>Google</a>",
-      alt_C:"<a href=''http://www.google.com''</a>",
-      alt_D:"<a href=''''>Google</a>",
+      alt_A:"<a href='http://www.google.com'>Google</a>",
+      alt_B:"<href a='http://www.google.com'>Google</a>",
+      alt_C:"<a href='http://www.google.com'</a>",
+      alt_D:"<a href=>Google</a>",
       svar:"A"},
      
        {fraga:"Vilken symbol används för att indikera en sluttagg?",
@@ -225,16 +225,16 @@ var fraga = [
      
        {fraga:"Vilken kod är korrekt för att göra en checkbox?",
       alt_A:"<input type=checkbox>",
-      alt_B:"<input object=''checkbox''>",
-      alt_C:"<input type=''checkbox''>",
-      alt_D:"<input type ''checkbox''>",
+      alt_B:"<input object='checkbox'>",
+      alt_C:"<input type='checkbox'>",
+      alt_D:"<input type 'checkbox'>",
       svar:"C"},
      
        {fraga:"Vilken kod är korrekt för att lägga in en bild?",
-      alt_A:"<img src=''image.image'' ctrl=''MyImage">'',
-      alt_B:"<img src=''image.gif'' ctrl=''MyImage">'',
-      alt_C:"<img src=''image.image'' alt=''MyImage">'',
-      alt_D:"<img src=''image.gif'' alt=''MyImage">'',
+      alt_A:"<img src='image.image' ctrl='MyImage'>",
+      alt_B:"<img src='image.gif' ctrl='MyImage'>",
+      alt_C:"<img src='image.image' alt='MyImage'>",
+      alt_D:"<img src='image.gif' alt='MyImage'>",
       svar:"D"},
      
        {fraga:"Vad gör taggen <title> ?",
